@@ -1,0 +1,14 @@
+[
+  {
+    "adapter": "Java",
+    "request": "launch",
+    "label": "Debug Template",
+    "mainClass": "hy.template.App",
+  },
+  {
+    "adapter": "Java",
+    "request": "launch",
+    "label": "Debug Bahan 1: Class",
+    "mainClass": "hy.bahan1class.App",
+  },
+]

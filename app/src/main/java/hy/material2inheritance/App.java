@@ -1,6 +1,6 @@
-package hy.bahan2inheritance;
+package hy.material2inheritance;
 
-import hy.bahan2inheritance.testpackage.*;
+import hy.material2inheritance.testpackage.*;
 
 class Parent {
 
@@ -39,35 +39,6 @@ public class App {
         // test.privateValue = 4;
 
         // SampleAbstractClass sample = new SampleAbstractClass();
-        SampleAbstractClass sub = new SampleSubClass();
-    }
-}
-
-class SegiEmpat {
-
-    private int panjang;
-    private int lebar;
-
-    public SegiEmpat(int panjang, int lebar) {
-        this.panjang = panjang;
-        this.lebar = lebar;
-    }
-
-    public SegiEmpat(int sisi) {
-        this.panjang = sisi;
-        this.lebar = sisi;
-    }
-
-    public void gambar() {
-        gambar("*");
-    }
-
-    public void gambar(String karakter) {
-        for (int i = 0; i < panjang; i++) {
-            for (int j = 0; j < lebar; j++) {
-                System.out.print(karakter);
-            }
-            System.out.println();
-        }
+        // SampleAbstractClass sub = new SampleSubClass();
     }
 }

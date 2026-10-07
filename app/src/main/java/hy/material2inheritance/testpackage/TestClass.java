@@ -1,4 +1,4 @@
-package hy.bahan2inheritance.testpackage;
+package hy.material2inheritance.testpackage;
 
 public class TestClass {
 

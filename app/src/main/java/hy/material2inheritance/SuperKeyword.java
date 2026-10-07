@@ -1,4 +1,4 @@
-package hy.bahan2inheritance;
+package hy.material2inheritance;
 
 class Parent {
 

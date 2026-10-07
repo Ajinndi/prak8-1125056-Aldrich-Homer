@@ -1,6 +1,6 @@
-package hy.bahan2inheritance;
+package hy.material2inheritance;
 
-import hy.bahan2inheritance.testpackage.TestClass;
+import hy.material2inheritance.testpackage.TestClass;
 
 class OtherTester extends TestClass {
 

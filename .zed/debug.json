@@ -8,7 +8,13 @@
   {
     "adapter": "Java",
     "request": "launch",
-    "label": "Debug Bahan 1: Class",
-    "mainClass": "hy.bahan1class.App",
+    "label": "Debug Material 1: Class",
+    "mainClass": "hy.material1class.App",
+  },
+  {
+    "adapter": "Java",
+    "request": "launch",
+    "label": "Debug Material 2: Inheritance",
+    "mainClass": "hy.material2inheritance.App",
   },
 ]

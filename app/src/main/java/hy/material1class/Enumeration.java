@@ -1,4 +1,4 @@
-package hy.bahan2inheritance;
+package hy.material1class;
 
 enum JenisKelamin {
     WANITA,

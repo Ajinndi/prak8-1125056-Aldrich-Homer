@@ -1,10 +1,10 @@
 package hy.material2inheritance;
 
-class Parent {
+class Parent2 {
 
     private int parentValue;
 
-    public Parent(int parentValue) {
+    public Parent2(int parentValue) {
         this.parentValue = parentValue;
     }
 
@@ -13,11 +13,11 @@ class Parent {
     }
 }
 
-class Child extends Parent {
+class Child2 extends Parent2 {
 
     private String childValue;
 
-    public Child(int parentValue, String childValue) {
+    public Child2(int parentValue, String childValue) {
         // calling the parent constructor
         super(parentValue);
         this.childValue = childValue;

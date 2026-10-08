@@ -17,4 +17,10 @@
     "label": "Debug Material 2: Inheritance",
     "mainClass": "hy.material2inheritance.App",
   },
+  {
+    "adapter": "Java",
+    "request": "launch",
+    "label": "Debug Material 8: Database",
+    "mainClass": "hy.material8database.App",
+  },
 ]

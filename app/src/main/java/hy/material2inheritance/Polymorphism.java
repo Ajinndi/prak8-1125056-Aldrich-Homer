@@ -1,9 +1,5 @@
 package hy.material2inheritance;
 
-class Parent {}
-
-class Child extends Parent {}
-
 public class Polymorphism {
 
     public Polymorphism() {

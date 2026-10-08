@@ -1,4 +1,6 @@
-package hy.material2inheritance;
+package hy.material2inheritance.material2polymorphism;
+
+import hy.material2inheritance.models.*;
 
 public class Polymorphism {
 

@@ -1,6 +1,6 @@
-package hy.material2inheritance.testpackage;
+package hy.material2inheritance.accessmodifier;
 
-public class TestClass {
+public class AccessModifier {
 
     public int publicValue = 0;
     int defaultAccessValue = 0;
@@ -15,7 +15,7 @@ public class TestClass {
 class Tester {
 
     public Tester() {
-        TestClass sample = new TestClass();
+        AccessModifier sample = new AccessModifier();
         sample.publicValue = 1;
         sample.protectedValue = 2;
         sample.defaultAccessValue = 3;

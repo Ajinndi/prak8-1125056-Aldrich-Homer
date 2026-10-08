@@ -1,4 +1,4 @@
-package hy.material2inheritance;
+package hy.material2inheritance.encapsulation;
 
 public class Encapsulation {
 

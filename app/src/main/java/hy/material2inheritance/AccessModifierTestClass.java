@@ -1,11 +1,11 @@
 package hy.material2inheritance;
 
-import hy.material2inheritance.testpackage.TestClass;
+import hy.material2inheritance.accessmodifier.AccessModifier;
 
-class OtherTester extends TestClass {
+class AccessModifierTestClass extends AccessModifier {
 
-    public OtherTester() {
-        TestClass sample = new TestClass();
+    public AccessModifierTestClass() {
+        AccessModifier sample = new AccessModifier();
         this.publicValue = 1;
         this.protectedValue = 2;
         // this.defaultAccessValue = 3;

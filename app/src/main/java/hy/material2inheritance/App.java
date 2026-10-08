@@ -1,25 +1,7 @@
 package hy.material2inheritance;
 
-import hy.material2inheritance.testpackage.*;
-
-class Parent {
-
-    public int a = 10;
-
-    public void printA() {
-        System.out.println("Parent property: " + a);
-    }
-}
-
-// child get everything the parent has
-class Child extends Parent {
-
-    public String b = "Child";
-
-    public void printB() {
-        System.out.println("Child property: " + b);
-    }
-}
+import hy.material2inheritance.accessmodifier.*;
+import hy.material2inheritance.models.*;
 
 public class App {
 
@@ -32,7 +14,7 @@ public class App {
         parent.printA(); // Parent's own method
         // parent.printB(); // Parent can't access child
 
-        TestClass test = new TestClass();
+        AccessModifier test = new AccessModifier();
         test.publicValue = 1;
         // test.protectedValue = 2;
         // test.defaultAccessValue = 3;

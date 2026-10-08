@@ -20,6 +20,18 @@
   {
     "adapter": "Java",
     "request": "launch",
+    "label": "Debug Material 3: Interface",
+    "mainClass": "hy.material3interface.App",
+  },
+  {
+    "adapter": "Java",
+    "request": "launch",
+    "label": "Debug Material 3: Lambda Functions",
+    "mainClass": "hy.material3interface.LambdaFunctions",
+  },
+  {
+    "adapter": "Java",
+    "request": "launch",
     "label": "Debug Material 8: Database",
     "mainClass": "hy.material8database.App",
   },

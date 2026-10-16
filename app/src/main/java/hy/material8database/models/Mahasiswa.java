@@ -4,9 +4,11 @@ public class Mahasiswa {
 
     public String nim;
     public String nama;
+    public String kodeJurusan;
 
-    public Mahasiswa(String nim, String nama) {
+    public Mahasiswa(String nim, String nama, String kodeJurusan) {
         this.nim = nim;
         this.nama = nama;
+        this.kodeJurusan = kodeJurusan;
     }
 }
